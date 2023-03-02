@@ -1,0 +1,126 @@
+body {
+  background-color: #E5EBB2;
+}
+
+.navbar {
+    background-color: #E8F3D6;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1400px;
+  }
+  
+  .navbar-logo img {
+    height: 48px;
+  }
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    padding: 0 20px;
+  }
+  
+  .navbar-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links li a:hover {
+    color: #1E6738;
+  }
+
+  .logo-container {
+    margin-top: 20px; /* Add some margin to the top of the container */
+    padding: 20px; /* Add some padding inside the container */
+    align-items: center;
+    display: flex; /* Use flexbox to center the contents */
+    justify-content: center; /* Center the contents horizontally */
+  }
+
+  .logo-container img {
+    max-width: 100%;
+    height: 300px;
+  }
+  
+  .logo-container p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  p {
+    margin-top: 0; /* remove default margin */
+    margin-bottom: 10px; /* add some margin between elements */
+    padding: 0 250px;
+    font-family: "Aileron Heavy", sans-serif;
+  }
+
+  .my-paragraph {
+    font-family: "Libre Baskerville", serif !important;
+  }
+
+  .navbar-links li a {
+    font-family: "Aileron Heavy", sans-serif;
+  }
+
+  h2 {
+    font-family: "Aileron Heavy", sans-serif;
+    padding: 0 250px;
+  }
+
+  h1 {
+    margin-top: 0; /* remove default margin */
+    margin-bottom: 10px; /* add some margin between elements */
+    font-family: "Aileron Heavy", sans-serif;
+  }
+
+  .founders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .founder {
+    margin-right: -125px;
+    margin-left: -125px;
+    text-align: center;
+  }
+  
+  .founder img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .founder p {
+    margin-bottom: -2px;
+    font-weight: bold;
+    font-family: "Aileron Heavy", sans-serif;
+  }
+
+  .social-media-container img {
+    padding: 0 250px;
+    width: 50px;
+    height: auto;
+  }
+  
+  
+  
